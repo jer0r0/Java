@@ -28,6 +28,9 @@ class Persona{
     //SETS
 
     public void set_edad(){
+        //Este set es diferente pues 
+        //la edad de una persona no puede ser negativa entonce pido la
+        //funcion al usuario dentro de la funcion para así poder llamarla de nuevo y solicitandole la edad de nuevo
         Scanner entrada=new Scanner(System.in);
         System.out.println("Ingrese la edad");
         int edad = entrada.nextInt();
